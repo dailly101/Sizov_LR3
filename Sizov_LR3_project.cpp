@@ -8,6 +8,10 @@ void Existence(double a, double b, double c) {
         cout << "Треугольник не существует." << endl;
     }
 }
+void Perimeter(double a, double b, double c) {
+    double perimeter = a + b + c;
+    cout << "Периметр треугольника: " << perimeter << endl;
+}
 
 int main() {
     double a, b, c;
