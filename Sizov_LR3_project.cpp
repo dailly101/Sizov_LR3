@@ -1,6 +1,17 @@
 #include <iostream>
 using namespace std;
-
+void Existence(double a, double b, double c) {
+    if (a + b > c && a + c > b && b + c > a) {
+        cout << "Треугольник существует." << endl;
+    }
+    else {
+        cout << "Треугольник не существует." << endl;
+    }
+}
+void Perimeter(double a, double b, double c) {
+    double perimeter = a + b + c;
+    cout << "Периметр треугольника: " << perimeter << endl;
+}
 
 int main() {
     double a, b, c;
